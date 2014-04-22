@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/opt/sysadm/bin/asu -fu wss01 -a 123 -r Environment Refresh Activities

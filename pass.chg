@@ -1,0 +1,17 @@
+#!/bin/bash
+
+list=$1
+
+echo $list
+echo
+
+for i in `cat $list`
+do
+  echo $i
+
+  if [[ $i != \#* ]]; then
+    ssh $i
+  fi
+
+  echo
+done
